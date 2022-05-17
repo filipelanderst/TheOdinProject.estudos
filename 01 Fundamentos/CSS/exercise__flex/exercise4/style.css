@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ingredients img {
+  width: 200px;
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+div p {
+  font-family: "Courier New", Courier, monospace;
+}
