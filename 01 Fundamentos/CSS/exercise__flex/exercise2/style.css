@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  color: blue;
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: #fbefd4;
+}
+
+.one,
+.two,
+.three,
+.logo,
+.four,
+.five,
+.six {
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.container .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ec5c4f;
+}
