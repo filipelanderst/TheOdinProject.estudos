@@ -3,17 +3,18 @@
 }
 
 div {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1200px;
   color: blue;
   display: flex;
   gap: 10px;
+  padding: 10px;
 }
 
 .container {
   justify-content: space-between;
   padding: 10px 0px;
   background-color: #fbefd4;
+  margin: 0 auto;
 }
 
 .one,
