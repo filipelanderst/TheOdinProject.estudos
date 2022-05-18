@@ -4,51 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>flex-ex6</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="nav-container">
-      <div class="about-store">
-        <ul>
-          <li>about</li>
-          <li>store</li>
-        </ul>
-      </div>
-
-      <div class="profile-settings">
-        <ul>
-          <li>Profile</li>
-          <li>Settings</li>
-        </ul>
-      </div>
-    </nav>
-
-    <main class="main-container">
+    <div class="header">
+      <ul class="left-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+      </ul>
+      <ul class="right-links">
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+    <div class="content">
       <img src="./logo-odin.png" alt="" />
-
-      <p class="form">aaaaaaaa</p>
-
-      <div class="btn">
-        <div class="btn1">Do the thing!</div>
-        <div class="btn2">Do the other thing!</div>
+      <div class="input">
+        <input type="text" />
       </div>
-    </main>
-
-    <footer class="footer-container">
-      <div class="advertising-business">
-        <ul>
-          <li>Advertisign</li>
-          <li>Business</li>
-        </ul>
+      <div class="buttons">
+        <button>Do the thing!</button>
+        <button>Do the other thing!</button>
       </div>
-
-      <div class="privacy-terms">
-        <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-        </ul>
-      </div>
-    </footer>
+    </div>
+    <div class="footer">
+      <ul class="left-links">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+      </ul>
+      <ul class="right-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </div>
   </body>
 </html>
